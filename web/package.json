@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "component-lib": "file:./component-lib-v0.0.9.tgz",
+    "component-lib": "file:./component-lib-v0.0.12.tgz",
     "vue": "^3.2.41"
   },
   "devDependencies": {

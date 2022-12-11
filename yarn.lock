@@ -353,9 +353,9 @@ commander@^2.20.3:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
-"component-lib@file:./web/component-lib-v0.0.9.tgz":
-  version "0.0.9"
-  resolved "file:./web/component-lib-v0.0.9.tgz#e66c50738b93763d17bbf1ec3da1561ccca543f6"
+"component-lib@file:./web/component-lib-v0.0.12.tgz":
+  version "0.0.12"
+  resolved "file:./web/component-lib-v0.0.12.tgz#cf4fc6ecfdc2f19809791b1f20b8e38aa6aa10d8"
   dependencies:
     vue "^3.2.41"
 

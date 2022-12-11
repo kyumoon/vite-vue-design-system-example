@@ -16,22 +16,22 @@ export default defineConfig({
   },
   plugins: [
     dts({
-      staticImport: true,
-      insertTypesEntry: true,
-      include: [
-        "src/**/*.ts",
-        "src/**/*.vue",
-        "src/**/*.d.ts",
-        "types/**/*.ts",
-      ],
+      // if you need manual include
+      // include: [
+      //   "src/**/*.ts",
+      //   "src/**/*.vue",
+      //   "src/**/*.d.ts",
+      //   "types/**/*.ts",
+      // ],
     }),
     vue(),
   ],
   build: {
     sourcemap: true,
     lib: {
+      formats: ["es"],
       entry: resolve(__dirname, "src/index.ts"),
-      name: "component-lib",
+      // name: "component-lib", //umd, iife 포멧으로 인코딩시 필요
     },
     rollupOptions: {
       external: ["vue"],
