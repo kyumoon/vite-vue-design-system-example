@@ -1,14 +1,11 @@
 <script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-// import HelloWorld from "./components/HelloWorld.vue";
-// import a from "component-lib";
-import { BaseButton } from "component-lib";
-import 'component-lib/style'
+import { BaseButton, SquareButton } from "component-lib";
+import "component-lib/style";
 </script>
 
 <template>
-  <BaseButton />
+  <BaseButton>BaseButton</BaseButton>
+  <SquareButton>SquareButton</SquareButton>
 </template>
 
 <style scoped>
